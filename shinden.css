@@ -53,3 +53,19 @@ body {
 .title-list .title-row:hover {
   background-color: rgba(50, 50, 50, 0.45) !important;
 }
+/* Wszystkie wiersze anime półprzezroczyste */
+.title-list .title-row,
+.title-list tbody,
+.title-list td,
+.title-list tr,
+.list-table,
+.list-container,
+.list-table-data,
+.title-col {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Hover dla wierszy */
+.title-list .title-row:hover {
+  background-color: rgba(50, 50, 50, 0.45) !important;
+}
