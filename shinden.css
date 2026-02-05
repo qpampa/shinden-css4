@@ -29,3 +29,42 @@ body {
 .title-list tbody:hover {
   background-color: rgba(50, 50, 50, 0.45) !important;
 }
+/* === TAPETA W TLE === */
+body {
+  background-image: url("https://images5.alphacoders.com/768/thumb-1920-768483.png");
+  background-size: cover !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  color: #ffffff;
+}
+
+/* === WSZYSTKIE ELEMENTY LISTY PÓŁPRZEZROCZYSTE === */
+#container,
+.list-table,
+.list-container,
+.list-table-data,
+.title-list,
+.title-list tbody,
+.title-list tr,
+.title-list td,
+.title-list .title-row,
+.title-col,
+.cover-col,
+.cover-wrapper,
+.title-info {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+  color: #ffffff !important;
+  border-radius: 6px !important;
+}
+
+/* Hover dla wierszy */
+.title-list .title-row:hover,
+.title-list tbody:hover {
+  background-color: rgba(50, 50, 50, 0.45) !important;
+}
+
+/* Tekst pozostaje biały */
+.title-list td,
+.title-list th {
+  color: #ffffff !important;
+}
