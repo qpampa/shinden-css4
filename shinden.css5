@@ -68,3 +68,19 @@ body {
 .title-list th {
   color: #ffffff !important;
 }
+/* === PRZEZROCZYSTOŚĆ GŁÓWNYCH PÓL === */
+.anime-list, .manga-list {
+  background-color: rgba(0, 0, 0, 0.5) !important; /* Przyciemnienie tła pod tekstem */
+  border: none !important;
+}
+
+/* === PRZEZROCZYSTOŚĆ POSZCZEGÓLNYCH WIERSZY === */
+.anime-list tbody tr, .manga-list tbody tr {
+  background-color: rgba(255, 255, 255, 0.05) !important; /* Bardzo delikatny prześwit */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* === KOLOR CZCIONKI DLA POLA TYTUŁU === */
+.anime-list a, .manga-list a {
+  color: #00e6e6 !important; /* Zmienia kolor linków na turkusowy, by były czytelne */
+}
