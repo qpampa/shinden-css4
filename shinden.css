@@ -1,0 +1,34 @@
+/* === WSZYSTKIE WIERSZE PÓŁPRZEZROCZYSTE === */
+.title-list .title-row,
+.title-list tbody,
+.title-list td,
+.title-list tr,
+.list-table,
+.list-table-data,
+.list-container {
+  background-color: rgba(0, 0, 0, 0.35) !important;
+}
+
+/* === HOVER === */
+.title-list .title-row:hover {
+  background-color: rgba(50, 50, 50, 0.45) !important;
+}
+
+/* === TEKST BIAŁY === */
+.title-list td,
+.title-list th {
+  color: #ffffff !important;
+}
+/* Nadpisujemy tła wierszy, żeby były półprzezroczyste */
+.title-list .title-row,
+.list-table-data,
+tr,
+.title-list td,
+.title-list tbody {
+  background: rgba(0, 0, 0, 0.35) !important;
+}
+
+/* Efekt hover dla wierszy */
+.title-list .title-row:hover {
+  background: rgba(50, 50, 50, 0.45) !important;
+}
